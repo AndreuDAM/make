@@ -9,7 +9,7 @@ int major(int a, int b)
         }
         }
 ~~~    
-despres agafarem en els fitxers de calcula.h i calcula.c per a guardarlos en .o i finalment per a que tinguem el calcula
+despres agafarem en els fitxers de calc.h i calc.c per a guardarlos en .o i finalment per a que tinguem el calcula
 ~~~
 gcc -c calc.c -o calc.o
 gcc -Wall -g calcula.c calc.o -o calcula
