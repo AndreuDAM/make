@@ -11,7 +11,7 @@ int major(int a, int b)
 ~~~    
 despres agafarem en els fitxers de calcula.h i calcula.c per a guardarlos en .o i finalment per a que tinguem el calcula
 ~~~
-calcula.c calc.o
+gcc -c calc.c -o calc.o
 gcc -Wall -g calcula.c calc.o -o calcula
 ~~~
 també podem gastar el PHONY per a netejar els fitxers que no necesitarem
